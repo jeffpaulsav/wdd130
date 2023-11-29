@@ -1,4 +1,8 @@
 
+a {
+    text-decoration: none;
+}
+
 p {
     font-family: "Roboto", "Times New Roman" ;
 }
@@ -17,6 +21,10 @@ nav a {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 .button-box {
@@ -67,6 +75,11 @@ footer {
 .icon {
     width: 80px;
 }
+
+.logo {
+    width: 80px;
+}
+
 nav a {
     text-align: center;
     color: #fcfbfb;
@@ -99,7 +112,7 @@ footer p a:hover {
     line-height: 1.5em;
   }
 
-  body {
+body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
@@ -136,9 +149,11 @@ nav a {
     margin-top: 50px;
     border-radius: 5px;
 }
+
 .card-img {
     border: 10px solid #d9c2a3;
 }
+
 main section img {
     box-sizing: border-box;
 }
