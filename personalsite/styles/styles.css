@@ -70,3 +70,37 @@ nav a {
     line-height: 2;
     margin: auto;
 }
+
+.Body-PG2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Page2-IMG-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+footer {
+    background-color: #998888;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+footer .social img {
+    justify-content: space-around;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
