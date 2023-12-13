@@ -74,7 +74,8 @@ nav a {
 .main-page-2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 550px 1fr 1fr 1fr;
+    padding-top: 40px;
 }
 
 .Page2-IMG-1 {
@@ -84,6 +85,7 @@ nav a {
     border-style: solid;
     border-width: 6px;
     border-color: #823329;
+    width: 60%;
 }
 
 .paragraph-1 {
@@ -118,7 +120,7 @@ body main div {
 .main-page-3 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 625px 550px 900px 600px;
 }
 
 .Page3-IMG-1 {
